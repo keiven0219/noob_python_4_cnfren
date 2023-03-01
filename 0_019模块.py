@@ -3,6 +3,12 @@
 # import module1
 
 import sys
-from helloworld import hello_world
-hello_world()
+# from helloworld import hello_world
+
+# import helloworld
+# helloworld.hello_world()
+
+import helloworld as hw
+hw.hello_world()
+
 print(sys.path)
